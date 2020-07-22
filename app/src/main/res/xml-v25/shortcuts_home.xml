@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/icon_scan"
+        android:shortcutDisabledMessage="@string/shortcutDisabledMessage"
+        android:shortcutId="scan"
+        android:shortcutLongLabel="@string/title_scan"
+        android:shortcutShortLabel="@string/title_scan">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.keno.shortcuts.ScanActivity"
+            android:targetPackage="com.keno.shortcuts" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/icon_wallet"
+        android:shortcutDisabledMessage="@string/shortcutDisabledMessage"
+        android:shortcutId="wallet"
+        android:shortcutLongLabel="@string/title_wallet"
+        android:shortcutShortLabel="@string/title_wallet">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.keno.shortcuts.WalletActivity"
+            android:targetPackage="com.keno.shortcuts" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/icon_contact_phone"
+        android:shortcutDisabledMessage="@string/shortcutDisabledMessage"
+        android:shortcutId="contactPhone"
+        android:shortcutLongLabel="@string/title_contact_phone"
+        android:shortcutShortLabel="@string/title_contact_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.keno.shortcuts.ContactActivity"
+            android:targetPackage="com.keno.shortcuts" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

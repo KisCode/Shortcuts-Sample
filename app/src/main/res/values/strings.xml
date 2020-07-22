@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ShortcutsApplication</string>
+    <string name="shortcutLongLabel">LongLabel</string>
+    <string name="shortcutShortLabel">ShortLabel</string>
+    <string name="shortcutDisabledMessage">DisabledMessage</string>
+
+    <string name="title_wallet">Wallet</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_contact_phone">Contact Phone</string>
+    <string name="title_warning">Warning</string>
+    <string name="title_shortcut_setting">Shortcut Settings</string>
+    <string name="text_add">3D touch fast entry has been added</string>
+    <string name="text_add_more">Add more</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+</resources>

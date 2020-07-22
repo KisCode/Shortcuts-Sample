@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.keno.shortcuts">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".WarningActivity"
+            android:label="@string/title_warning" />
+        <activity
+            android:name=".ShortcutSettingActivity"
+            android:label="@string/title_shortcut_setting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactActivity"
+            android:label="@string/title_contact_phone" />
+        <activity
+            android:name=".ScanActivity"
+            android:label="@string/title_scan" />
+        <activity
+            android:name=".WalletActivity"
+            android:label="@string/title_wallet" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!--            静态声明shortcut-->
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts_home" />
+
+        </activity>
+    </application>
+
+</manifest>
