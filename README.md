@@ -4,7 +4,7 @@
 该项目主要实现了类似支付宝动态配置桌面快捷。
 
 
-![setting](https://github.com/KisCode/Shortcuts-Sample/blob/masterimage/Screenshot_1.png)
+![setting](https://github.com/KisCode/Shortcuts-Sample/blob/master/image/Screenshot_1.png)
 
 ![shortcuts](https://github.com/KisCode/Shortcuts-Sample/blob/master/image/Screenshot_2.png)
 
