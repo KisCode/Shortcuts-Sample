@@ -184,7 +184,7 @@ private void addShortcutSetting(List<ShortcutModel> shortcutModelList) {
 
 #### 3. 删除配置项
 - 根据ShortcutInfo的唯一标志Id即可删除
--
+
 ```
 /***
  * 移除快捷方式配置
